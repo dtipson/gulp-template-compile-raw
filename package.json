@@ -1,6 +1,6 @@
 {
-  "name": "gulp-template-compile",
-  "version": "1.0.0",
+  "name": "gulp-template-compile-raw",
+  "version": "0.9.0",
   "description": "Gulp task to precompile lodash templates",
   "main": "index.js",
   "author": {
@@ -9,7 +9,7 @@
   },
   "repository" : {
     "type" : "git",
-    "url" : "http://github.com/ingro/gulp-template-compile.git"
+    "url" : "http://github.com/ingro/gulp-template-compile-raw.git"
   },
   "engines": {
     "node": ">=0.10.0"
