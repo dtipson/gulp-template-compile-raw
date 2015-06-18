@@ -71,6 +71,14 @@ Default: null
 
 [Lo-Dash `_.template` options](http://lodash.com/docs#template).
 
+
+
+#### options.proplike
+Type: `Boolean`
+Default: false
+
+If set to true, this will output just the function preceded by [template_name]: . This would allow you to concat/join multiple templates into a single object definition, saving bytes and making it easier to turn the templates into a module.
+
 ## Changelog
 
 #### 1.0:

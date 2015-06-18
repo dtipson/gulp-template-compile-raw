@@ -37,7 +37,7 @@ module.exports = function (options) {
 
         var template = tpl(file.contents.toString(), false, options.templateSettings).source;
 
-        return templateHeader + NSwrapper + template + '})();';
+        return options.proplike ? (name.replace(/\\/g, '/') + ': '+template) : (templateHeader + NSwrapper + template + '})();');
     }
 
     var stream = through.obj(function (file, enc, callback) {
